@@ -2,6 +2,7 @@
 	"name": "openldap",
 	"description": "openldap minimal binding",
 	"copyright": "Copyright © 2015, igor",
+    "license": "LGPL-3.0",
 	"authors": ["igor"],
     "targetType": "library",
     "libs": ["ldap", "lber"],
