@@ -1,0 +1,11 @@
+{
+	"name": "openldap",
+	"description": "openldap minimal binding",
+	"copyright": "Copyright © 2015, igor",
+	"authors": ["igor"],
+    "targetType": "library",
+    "libs": ["ldap", "lber"],
+    "sourceFiles": ["source/openldap.d"],
+	"dependencies": {
+	}
+}
