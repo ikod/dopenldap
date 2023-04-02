@@ -16,7 +16,7 @@ void main() {
     globalLogLevel(LogLevel.info);
     int proto_version;
 
-    auto ldap = LDAP("ldap://ldap.forumsys.com");
+    auto ldap = LDAPConnection("ldap://ldap.forumsys.com");
     ldap.get_option(LDAP_OPT_PROTOCOL_VERSION, &proto_version);
     if ( proto_version == 2) {
         proto_version = 3;
